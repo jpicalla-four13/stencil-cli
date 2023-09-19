@@ -1,9 +1,9 @@
-# Stencil CLI
+# Stencil CLI (Four13 Fork)
 
 [![npm (scoped)](https://img.shields.io/npm/v/@bigcommerce/stencil-cli.svg)](https://www.npmjs.com/package/@bigcommerce/stencil-cli)
 ![tests](https://github.com/bigcommerce/stencil-cli/workflows/Tests/badge.svg?branch=master)
 
-The BigCommerce server emulator for local theme development.
+The BigCommerce server emulator for local theme development. Forked to allow reading from env vars and saving to a `.env` file instead of to `secrets.stencil.json`.
 
 ## Install
 
@@ -11,7 +11,7 @@ _Note: Stencil requires the Node.js runtime environment,
 version 14.x is supported.
 We do not yet have support for versions greater than Node 14._
 
-Run `npm install -g @bigcommerce/stencil-cli`.
+Run `npm i -g github:four13co/stencil-cli`.
 
 Visit the [installation guide](https://developer.bigcommerce.com/stencil-docs/getting-started/installing-stencil)
 for more details.
